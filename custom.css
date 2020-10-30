@@ -7,3 +7,6 @@ body {
 .hero-area .block h1 {
     font-size: 60px;
 }
+.navbar {
+    padding: 1rem 1rem;
+}
