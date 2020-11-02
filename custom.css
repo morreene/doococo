@@ -24,4 +24,9 @@ body {
 }
 
 .about .block {
-    background: #FFF;
+    background: #B0E0E6;
+}
+
+.about h3 {
+    color: #1B365D;
+}
