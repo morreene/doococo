@@ -9,15 +9,6 @@
     <copyright>Copyright &amp;copy; 2020 Designed by [Themefisher](https://themefisher.com) &amp; Developed by [Gethugothemes](https://gethugothemes.com)</copyright>
     <lastBuildDate>Wed, 12 Sep 2018 14:51:12 +0600</lastBuildDate><atom:link href="https://doococo.style/cn/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Are You Doing the Right Way</title>
-      <link>https://doococo.style/cn/blog/simple-blog-post-8/</link>
-      <pubDate>Wed, 12 Sep 2018 14:51:12 +0600</pubDate>
-      
-      <guid>https://doococo.style/cn/blog/simple-blog-post-8/</guid>
-      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</description>
-    </item>
-    
-    <item>
       <title>How To Setup Meghna Hugo</title>
       <link>https://doococo.style/cn/blog/installation/</link>
       <pubDate>Wed, 12 Sep 2018 14:51:12 +0600</pubDate>
@@ -32,7 +23,7 @@
       <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
       
       <guid>https://doococo.style/cn/blog/doococo-2020-full/</guid>
-      <description>#the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; } #paginator{ text-align: center; margin-bottom: 10px; }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /     window.</description>
+      <description>&lt;p&gt;DooCoCo 2020 秋冬 拥抱系列 全版&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -41,7 +32,7 @@
       <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
       
       <guid>https://doococo.style/cn/blog/doococo-2020-short/</guid>
-      <description>#the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; } #paginator{ text-align: center; margin-bottom: 10px; }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /     window.</description>
+      <description>&lt;p&gt;DooCoCo 2020 秋冬 拥抱系列 短版&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -59,33 +50,6 @@
       <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
       
       <guid>https://doococo.style/cn/blog/simple-blog-post-4/</guid>
-      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</description>
-    </item>
-    
-    <item>
-      <title>Simple Blog Post</title>
-      <link>https://doococo.style/cn/blog/simple-blog-post-5/</link>
-      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
-      
-      <guid>https://doococo.style/cn/blog/simple-blog-post-5/</guid>
-      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</description>
-    </item>
-    
-    <item>
-      <title>Simple Blog Post</title>
-      <link>https://doococo.style/cn/blog/simple-blog-post-6/</link>
-      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
-      
-      <guid>https://doococo.style/cn/blog/simple-blog-post-6/</guid>
-      <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</description>
-    </item>
-    
-    <item>
-      <title>Simple Blog Post</title>
-      <link>https://doococo.style/cn/blog/simple-blog-post-7/</link>
-      <pubDate>Wed, 12 Sep 2018 12:52:36 +0600</pubDate>
-      
-      <guid>https://doococo.style/cn/blog/simple-blog-post-7/</guid>
       <description>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</description>
     </item>
     

@@ -3,21 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://doococo.style/cn/blog/simple-blog-post-8/</loc>
-    <lastmod>2018-09-12T14:51:12+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://doococo.style/blog/simple-blog-post-8/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://doococo.style/cn/blog/simple-blog-post-8/"
-                />
-  </url>
-  
-  <url>
     <loc>https://doococo.style/cn/blog/</loc>
     <lastmod>2018-09-12T14:51:12+06:00</lastmod>
     <xhtml:link
@@ -99,51 +84,6 @@
                 rel="alternate"
                 hreflang="cn"
                 href="https://doococo.style/cn/blog/simple-blog-post-4/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://doococo.style/cn/blog/simple-blog-post-5/</loc>
-    <lastmod>2018-09-12T12:52:36+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://doococo.style/blog/simple-blog-post-5/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://doococo.style/cn/blog/simple-blog-post-5/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://doococo.style/cn/blog/simple-blog-post-6/</loc>
-    <lastmod>2018-09-12T12:52:36+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://doococo.style/blog/simple-blog-post-6/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://doococo.style/cn/blog/simple-blog-post-6/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://doococo.style/cn/blog/simple-blog-post-7/</loc>
-    <lastmod>2018-09-12T12:52:36+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://doococo.style/blog/simple-blog-post-7/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://doococo.style/cn/blog/simple-blog-post-7/"
                 />
   </url>
   
