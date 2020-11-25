@@ -2,7 +2,7 @@
 <html lang="cn-cn">
 <head>
 	<meta charset="utf-8">
-	<title>Simple Blog Post</title>
+	<title>Doococo 2020</title>
 
 	<!-- mobile responsive meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -148,7 +148,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 offset-lg-2 text-center">
-        <h1>Simple Blog Post</h1>
+        <h1>Doococo 2020</h1>
         <ul class="list-inline mb-50">
           <li class="list-inline-item"><a href="/cn/author/john-doe/">John Doe</a></li>
           <li class="list-inline-item">Wednesday, Sep 12, 2018</li>
@@ -158,6 +158,128 @@
       <div class="col-lg-8 offset-lg-2">
         <div class="post-single-content">
           <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+<script type="text/javascript" src="/js/pdf-js/build/pdf.js"></script>
+<style>
+#the-canvas {
+  border: 1px solid black;
+  direction: ltr;
+  width: 100%;
+  height: auto;
+}
+#paginator{
+    text-align: center;
+    margin-bottom: 10px;
+}
+</style>
+
+<div id="paginator">
+    <button id="prev">Previous</button>
+    <button id="next">Next</button>
+    &nbsp; &nbsp;
+    <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
+</div>
+<div id="embed-pdf-container">
+    <canvas id="the-canvas"></canvas>
+</div>
+
+<script type="text/javascript">
+window.onload = function() {
+
+
+
+var url = ".\/static\/files\/doococo-short.pdf";
+
+
+var pdfjsLib = window['pdfjs-dist/build/pdf'];
+
+
+pdfjsLib.GlobalWorkerOptions.workerSrc = '/js/pdf-js/build/pdf.worker.js';
+
+
+var pdfDoc = null,
+    pageNum = 1,
+    pageRendering = false,
+    pageNumPending = null,
+    scale = 3,
+    canvas = document.getElementById('the-canvas'),
+    ctx = canvas.getContext('2d');
+
+
+
+function renderPage(num) {
+  pageRendering = true;
+  
+  pdfDoc.getPage(num).then(function(page) {
+    var viewport = page.getViewport({scale: scale});
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+
+    
+    var renderContext = {
+      canvasContext: ctx,
+      viewport: viewport
+    };
+    var renderTask = page.render(renderContext);
+
+    
+    renderTask.promise.then(function() {
+      pageRendering = false;
+      if (pageNumPending !== null) {
+        
+        renderPage(pageNumPending);
+        pageNumPending = null;
+      }
+    });
+  });
+
+  
+  document.getElementById('page_num').textContent = num;
+}
+
+
+
+function queueRenderPage(num) {
+  if (pageRendering) {
+    pageNumPending = num;
+  } else {
+    renderPage(num);
+  }
+}
+
+
+
+function onPrevPage() {
+  if (pageNum <= 1) {
+    return;
+  }
+  pageNum--;
+  queueRenderPage(pageNum);
+}
+document.getElementById('prev').addEventListener('click', onPrevPage);
+
+
+
+function onNextPage() {
+  if (pageNum >= pdfDoc.numPages) {
+    return;
+  }
+  pageNum++;
+  queueRenderPage(pageNum);
+}
+document.getElementById('next').addEventListener('click', onNextPage);
+
+
+
+pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+  pdfDoc = pdfDoc_;
+  document.getElementById('page_count').textContent = pdfDoc.numPages;
+
+  
+  renderPage(pageNum);
+});
+}
+
+</script>
 <p>Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
 <blockquote>
 <p>Design is not just what it looks like and feels like. Design is how it works.</p>
@@ -184,7 +306,7 @@
 	</a>
 
 	
-	<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=Simple%20Blog%20Post&amp;url=https%3a%2f%2fdoococo.style%2fcn%2fblog%2fsimple-blog-post-1%2f"
+	<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=Doococo%202020&amp;url=https%3a%2f%2fdoococo.style%2fcn%2fblog%2fsimple-blog-post-1%2f"
 		target="_blank" rel="noopener" aria-label="">
 		<div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small">
 			<div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
@@ -210,7 +332,7 @@
 	</a>
 
 	
-	<a class="resp-sharing-button__link" href="mailto:?subject=Simple%20Blog%20Post&amp;body=https%3a%2f%2fdoococo.style%2fcn%2fblog%2fsimple-blog-post-1%2f" target="_self"
+	<a class="resp-sharing-button__link" href="mailto:?subject=Doococo%202020&amp;body=https%3a%2f%2fdoococo.style%2fcn%2fblog%2fsimple-blog-post-1%2f" target="_self"
 		rel="noopener" aria-label="">
 		<div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--small">
 			<div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
@@ -224,7 +346,7 @@
 
 	
 	<a class="resp-sharing-button__link"
-		href="https://reddit.com/submit/?url=https%3a%2f%2fdoococo.style%2fcn%2fblog%2fsimple-blog-post-1%2f&amp;resubmit=true&amp;title=Simple%20Blog%20Post" target="_blank"
+		href="https://reddit.com/submit/?url=https%3a%2f%2fdoococo.style%2fcn%2fblog%2fsimple-blog-post-1%2f&amp;resubmit=true&amp;title=Doococo%202020" target="_blank"
 		rel="noopener" aria-label="">
 		<div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--small">
 			<div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
@@ -237,7 +359,7 @@
 	</a>
 
 	
-	<a class="resp-sharing-button__link" href="whatsapp://send?text=Simple%20Blog%20Post%20https%3a%2f%2fdoococo.style%2fcn%2fblog%2fsimple-blog-post-1%2f" target="_blank"
+	<a class="resp-sharing-button__link" href="whatsapp://send?text=Doococo%202020%20https%3a%2f%2fdoococo.style%2fcn%2fblog%2fsimple-blog-post-1%2f" target="_blank"
 		rel="noopener" aria-label="">
 		<div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--small">
 			<div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
@@ -250,7 +372,7 @@
 	</a>
 
 	
-	<a class="resp-sharing-button__link" href="https://telegram.me/share/url?text=Simple%20Blog%20Post&amp;url=https%3a%2f%2fdoococo.style%2fcn%2fblog%2fsimple-blog-post-1%2f"
+	<a class="resp-sharing-button__link" href="https://telegram.me/share/url?text=Doococo%202020&amp;url=https%3a%2f%2fdoococo.style%2fcn%2fblog%2fsimple-blog-post-1%2f"
 		target="_blank" rel="noopener" aria-label="">
 		<div class="resp-sharing-button resp-sharing-button--telegram resp-sharing-button--small">
 			<div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
