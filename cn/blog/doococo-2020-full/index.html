@@ -141,135 +141,16 @@
       </div>
       <div class="col-lg-8 offset-lg-2">
         <div class="post-single-content">
-          <p>DooCoCo 2020 秋冬 拥抱系列 全版</p>
-<script type="text/javascript" src="/js/pdf-js/build/pdf.js"></script>
-<style>
-#the-canvas {
-  border: 1px solid black;
-  direction: ltr;
-  width: 100%;
-  height: auto;
-}
-#paginator{
-    text-align: center;
-    margin-bottom: 10px;
-}
-</style>
-
-<div id="paginator">
-    <button id="prev">Previous</button>
-    <button id="next">Next</button>
-    &nbsp; &nbsp;
-    <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
-</div>
-<div id="embed-pdf-container">
-    <canvas id="the-canvas"></canvas>
-</div>
-
-<script type="text/javascript">
-window.onload = function() {
-
-
-
-var url = "https:\/\/doococo.style\/doococo-2020fw.pdf";
-
-
-var pdfjsLib = window['pdfjs-dist/build/pdf'];
-
-
-pdfjsLib.GlobalWorkerOptions.workerSrc = '/js/pdf-js/build/pdf.worker.js';
-
-
-var pdfDoc = null,
-    pageNum = 1,
-    pageRendering = false,
-    pageNumPending = null,
-    scale = 3,
-    canvas = document.getElementById('the-canvas'),
-    ctx = canvas.getContext('2d');
-
-
-
-function renderPage(num) {
-  pageRendering = true;
-  
-  pdfDoc.getPage(num).then(function(page) {
-    var viewport = page.getViewport({scale: scale});
-    canvas.height = viewport.height;
-    canvas.width = viewport.width;
-
-    
-    var renderContext = {
-      canvasContext: ctx,
-      viewport: viewport
-    };
-    var renderTask = page.render(renderContext);
-
-    
-    renderTask.promise.then(function() {
-      pageRendering = false;
-      if (pageNumPending !== null) {
-        
-        renderPage(pageNumPending);
-        pageNumPending = null;
-      }
-    });
-  });
-
-  
-  document.getElementById('page_num').textContent = num;
-}
-
-
-
-function queueRenderPage(num) {
-  if (pageRendering) {
-    pageNumPending = num;
-  } else {
-    renderPage(num);
-  }
-}
-
-
-
-function onPrevPage() {
-  if (pageNum <= 1) {
-    return;
-  }
-  pageNum--;
-  queueRenderPage(pageNum);
-}
-document.getElementById('prev').addEventListener('click', onPrevPage);
-
-
-
-function onNextPage() {
-  if (pageNum >= pdfDoc.numPages) {
-    return;
-  }
-  pageNum++;
-  queueRenderPage(pageNum);
-}
-document.getElementById('next').addEventListener('click', onNextPage);
-
-
-
-pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
-  pdfDoc = pdfDoc_;
-  document.getElementById('page_count').textContent = pdfDoc.numPages;
-
-  
-  renderPage(pageNum);
-});
-}
-
-</script>
+          <p>国内锂电龙头企业亿纬锂能将通过债转股的方式引入韩国动力电池龙头企业SKI作为战投。</p>
+<p>12月9日，惠州亿纬锂能股份有限公司（下称“亿纬锂能”，300014）发布公告称，为谋求更大的发展，公司拟通过债转股的方式引入韩国SK革新株式会社（下称“SKI”）作为战略投资者，公司与亿纬集能、SKI签署《债权转股权合同》，与SKI签署《亿纬集能合资经营合同》。
+SKI行使转股权时，将以其对亿纬锂能子公司惠州亿纬集能有限公司(下称“亿纬集能”)享有的现金贷款债权20.35亿元作为出资，取得亿纬集能49%股权，亿纬锂能持有剩下51%股权。
+公告显示，为满足经营发展所需，亿纬集能自2018年9月起向Blue Dragon Energy Co.,Limited(下称“BDE”)合计借款20.35亿元，亿纬锂能以亿纬集能60%股权提供质押担保。根据BDE、SKI、亿纬集能以及亿纬锂能签署的《债权转让协议》，将由BDE向SKI转让BDE对亿纬集能享有的全部贷款债权，SKI承继BDE相关权利义务。</p>
         </div>
         
         
 
 <div class="social-share pt-4">
-	<h4>Partager:</h4>
+	<h4>分享:</h4>
 	
 	<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fdoococo.style%2fcn%2fblog%2fdoococo-2020-full%2f" target="_blank"
 		rel="noopener" aria-label="">
