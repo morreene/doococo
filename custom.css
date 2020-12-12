@@ -70,3 +70,18 @@ body {
 .call-to-action h2{
     color: #ccc;
 }
+
+
+.portfolio-block .caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    z-index: 9;
+    transition: all .2s ease-in-out;
+    padding: 10px
+    font-size: 10px;
+    text-align: center;
+}
