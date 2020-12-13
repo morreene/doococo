@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6, p{
     /* color: #afbac4; */
     font-size: 18px;
 }
-#feature ul {
+#feature .content-block li {
     /* color: #afbac4; */
     font-size: 18px;
 }
@@ -77,11 +77,11 @@ h1, h2, h3, h4, h5, h6, p{
 }
 .call-to-action p{
     font-size: 20px;
-    color: #ccc;
+    color: #ddd;
 }
 
 .call-to-action h2{
-    color: #ccc;
+    color: #ddd;
 }
 
 
