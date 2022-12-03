@@ -1,0 +1,82 @@
+#################################### portfolio ###############################
+season1:
+  enable : true
+  title : Embrace 拥抱
+  introduction : '
+The two cashmere scarves introduced as launch products of "**Embrace 拥抱**" series are tailored only for you. DooCoco’s uncompromising
+ focus on details and quality penetrates into every stage of creation of these scarves from raw material selection to end product weave.
+
+
+Only the best quality 100% cashmere were selected, double-sided weaved and finished, which brings the warmth of thick fabrics, more possibilities for dressing combos and ultimate using experience.
+  '
+  season1_item :
+    # portfolio item loop
+    - name : Jumping O
+      image : images/season1/1.png
+      # image_webp : images/portfolio/portfolio-1.webp
+      categories : ["设计"]
+      content : "
+The premiere commemorative edition Jumping O draws its inspiration from the smooth and nimble shapes of the Alphabets: DooCoco, which are formed by the letter O and the mutations of itself. The contrast between black and white illustrates balance, dramatic tension, bold and unrestrained character.
+
+
+Specially designed double-sided contrasting dual-color scheme breaks through the limits of shapes and create endless possibilities through folding and combination. When the color scheme of Jumping O encounters the smooth textile of thick fabrics, the sense of warmth and modernity is resonated. Jumping O is the top choice for people who love the style trends of simplicity.
+
+
+
+      "
+      link : "https://themefisher.com"
+
+    # portfolio item loop
+    - name : Mountain
+      image : images/season1/2.png
+      # image_webp : images/portfolio/portfolio-2.webp
+      categories : ["研发"]
+      content : "
+Inspired from mountain peaks standing in the twilight, the Mountain itself represents tranquility, depth and determination.
+
+
+A rich sense of layering is structured from double-weft weaving and delicate yarns of three colors.
+
+
+The natural, hand-worked teasels help to achieve a gentle luster over the unique ripple finish.
+
+
+It breaks the narrow limits of gender with its restrained, yet bright, classical character.
+
+
+
+      "
+      link : ""
+
+    # # portfolio item loop
+    # - name : 沙 漠
+    #   image : images/season1/3.png
+    #   # image_webp : images/portfolio/portfolio-3.webp
+    #   categories : ["设计", "研发"]
+    #   content : "灵感来源于晨晖下的广袤沙漠，悠远而神秘。恰到好处的灰，调和了红与粉，浓烈与淡柔搭配有致，呈现出丰沛的生命力量。由内而外散发优雅、智慧的气质，是萧瑟冬日中的一抹亮色，带着喜悦，迎接未来。"
+    #   link : "#"
+    #
+    # # portfolio item loop
+    # - name : 朝 霞
+    #   image : images/season1/4.png
+    #   # image_webp : images/portfolio/portfolio-4.webp
+    #   categories : ["摄影", "研发"]
+    #   content : "灵感来源于朝霞，温柔而冷静。柔灰的云层中透出一抹清亮的粉，是理性与感性的完美结合。如当代女性看似冲突实则自洽的曼妙人格，鲜活、独特，洋溢着澄澈而和煦的魅力。"
+    #   link : "#"
+    #
+    # # portfolio item loop
+    # - name : 果 实
+    #   image : images/season1/5.png
+    #   # image_webp : images/portfolio/portfolio-5.webp
+    #   categories : ["设计"]
+    #   content : "灵感来源于阳光下丰收的田野，呈现出质朴的天然韵味。燕麦色象征自然的果实，丰硕、和谐，是优雅的极致，是无色之色的简雅。在充斥着工业加工的生活中，带我们回到田野，感受大自然给予人类的礼物。"
+    #   link : "#"
+    #
+    # # portfolio item loop
+    # - name : 原料与工艺
+    #   image : images/season1/6.png
+    #   # image_webp : images/portfolio/portfolio-5.webp
+    #   categories : ["设计"]
+    #   content : "
+    #   山羊绒是大自然的神奇馈赠，我们选取其中最顶级的内蒙古阿尔巴斯白山羊绒，平均细度15.13微米，平均长度34.05毫米，是织制围巾最适宜、最奢华的原绒，颜色自然，光泽明亮，触感柔软。尖端的科技和传统的手法，精确控制每一道工序，赋予“EMBRACE 拥抱”系列不同于普通羊绒围巾的质感。"
+    #   link : "#"

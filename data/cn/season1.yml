@@ -1,0 +1,61 @@
+#################################### portfolio ###############################
+season1:
+  enable : true
+  title :  EMBRACE 拥抱
+  introduction : "
+
+
+DooCoco 将对品质和细节的极致追求，贯穿于从原料选取到成品编织的每道工序中，为您特别定制“EMBRACE 拥抱”系列首发的两款羊绒围巾。
+
+
+选取最高品质的100%山羊绒，双面双色织就，带来厚织的温度、更多的穿搭可能、极致的美好体验。
+  "
+  season1_item :
+    # portfolio item loop
+    - name : 跃动的 O
+      image : images/season1/1.png
+      # image_webp : images/portfolio/portfolio-1.webp
+      categories : ["设计"]
+      content : "首发纪念款跃动的O，选择DooCoco的字母图案，是O和O的变形，圆融而灵动。黑白对比，是平衡，是张力，是自由奔放的个性。特别设计的双面黑白反色，通过折叠搭配，打破图案的限制，创造无限可能。与厚织羊绒的细腻材质相遇，温暖、现代，是简约主义的首选。"
+      link : "https://themefisher.com"
+
+    # portfolio item loop
+    - name : 远 山
+      image : images/season1/2.png
+      # image_webp : images/portfolio/portfolio-2.webp
+      categories : ["研发"]
+      content : "灵感来源于夜与昼交界之时伫立的山峰，宁静、深沉、坚定。纬二重梭织法和三种颜色的纱线，营造出丰富的层次感。手推小水波纹技法，形成了柔和的光泽。打破性别定义，英朗、内敛、经典。"
+      link : ""
+
+    # # portfolio item loop
+    # - name : 沙 漠
+    #   image : images/season1/3.png
+    #   # image_webp : images/portfolio/portfolio-3.webp
+    #   categories : ["设计", "研发"]
+    #   content : "灵感来源于晨晖下的广袤沙漠，悠远而神秘。恰到好处的灰，调和了红与粉，浓烈与淡柔搭配有致，呈现出丰沛的生命力量。由内而外散发优雅、智慧的气质，是萧瑟冬日中的一抹亮色，带着喜悦，迎接未来。"
+    #   link : "#"
+    #
+    # # portfolio item loop
+    # - name : 朝 霞
+    #   image : images/season1/4.png
+    #   # image_webp : images/portfolio/portfolio-4.webp
+    #   categories : ["摄影", "研发"]
+    #   content : "灵感来源于朝霞，温柔而冷静。柔灰的云层中透出一抹清亮的粉，是理性与感性的完美结合。如当代女性看似冲突实则自洽的曼妙人格，鲜活、独特，洋溢着澄澈而和煦的魅力。"
+    #   link : "#"
+    #
+    # # portfolio item loop
+    # - name : 果 实
+    #   image : images/season1/5.png
+    #   # image_webp : images/portfolio/portfolio-5.webp
+    #   categories : ["设计"]
+    #   content : "灵感来源于阳光下丰收的田野，呈现出质朴的天然韵味。燕麦色象征自然的果实，丰硕、和谐，是优雅的极致，是无色之色的简雅。在充斥着工业加工的生活中，带我们回到田野，感受大自然给予人类的礼物。"
+    #   link : "#"
+    #
+    # # portfolio item loop
+    # - name : 原料与工艺
+    #   image : images/season1/6.png
+    #   # image_webp : images/portfolio/portfolio-5.webp
+    #   categories : ["设计"]
+    #   content : "
+    #   山羊绒是大自然的神奇馈赠，我们选取其中最顶级的内蒙古阿尔巴斯白山羊绒，平均细度15.13微米，平均长度34.05毫米，是织制围巾最适宜、最奢华的原绒，颜色自然，光泽明亮，触感柔软。尖端的科技和传统的手法，精确控制每一道工序，赋予“EMBRACE 拥抱”系列不同于普通羊绒围巾的质感。"
+    #   link : "#"

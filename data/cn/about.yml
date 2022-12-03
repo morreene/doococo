@@ -1,0 +1,19 @@
+############################# About ###################################
+about:
+  enable : true
+  title : 关于 我们
+  about_item :
+    - icon : ti-ruler-pencil # themify icon pack : https://themify.me/themify-icons
+      title : Paragraph 1
+      # image : images/client/Doo.png
+      content : DooCoco 是一家线上礼物集合店，致力于将美学灵感融入生活。我们相信，礼物是爱的语言。
+
+    - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
+      title : Paragraph 2
+      # image : images/client/Coco.png
+      content : DooCoco 汇集多元的文化和卓越的设计师作品，以开放包容的态度在经典与现代间游走，以对细节和品质的极致追求，不断探索色彩与材质、线条与图形的力量。
+
+    - icon : ti-thought # themify icon pack : https://themify.me/themify-icons
+      title : Paragraph 3
+      # image : images/client/Coco.png
+      content : DooCoco 是从头脑到心灵到双手的创造，是从理性到情感到技艺的完美呈现。

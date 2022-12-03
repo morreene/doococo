@@ -1,0 +1,31 @@
+############################## Contact #############################
+contact:
+  enable : true
+  title : Contact Us
+  subtitle : Contact Details
+  content : Welcome to contact us in the following ways. We will reply to your information in the fastest way.
+
+  # Contact details
+  contact_list:
+    - icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
+      info : "5 Qing Nian Lu Xi Li, Chao Yang District, Beijing 100123, China"
+
+    - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
+      info : "Phone: +86 136 0126 4010"
+
+    # - icon : ti-printer # themify icon pack : https://themify.me/themify-icons
+    #   info : "Fax: +800-111-111"
+
+    - icon : ti-email # themify icon pack : https://themify.me/themify-icons
+      info : "Email: tianni@doococo.style"
+
+
+  # Contact form
+  contact_form:
+    enable : true
+    form_action : "https://formspree.io/f/moqpkeal" #contact form works with https://formspree.io
+    name : "Your Name"
+    email : "Your Email"
+    subject : "Subject"
+    message : "Message"
+    submit : "Submit"

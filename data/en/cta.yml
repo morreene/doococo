@@ -1,0 +1,12 @@
+############################# call to action ##############################
+cta:
+  enable : true
+  bg_image : "images/backgrounds/bg-white-wall.jpg"
+  bg_image_webp : "images/backgrounds/bg-white-wall.webp"
+  title : "DooCoco will always be there, by your side."
+  content : "Scan the QR code below to follow DooCoco, buy and consult online. Weibo: 好奇的嘟可可"
+  qr_image : images/qr_code.png
+  button:
+    enable : false
+    label : "Start a project with us"
+    link : "#contact"

@@ -1,0 +1,19 @@
+############################# About ###################################
+about:
+  enable : true
+  title : About DooCoCo
+  about_item :
+  - icon : ti-ruler-pencil # themify icon pack : https://themify.me/themify-icons
+    title : We're Creative
+    image : images/client/Doo.png
+    content : DooCoco is an online gift boutique,,,,, dedicated to incorporating aesthetic inspirations to everyday life. We believe that gifts are the embodiment of Love.
+
+  - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
+    title : We're Professional
+    image : images/client/Coco.png
+    content : DooCoco integrates diverse cultures and outstanding designers work ranging from classics to modern ones, explores the strength of various colors, textures, lines and shapes that based on the uncompromising focus on details and quality.
+
+  - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
+    title : We're Professional
+    image : images/client/Coco.png
+    content : DooCoco presents the ultimate pursuit of creativity, inspiration, and craftsmanship, while emphasizing the roles played by rationality, passion and finesse in designing.

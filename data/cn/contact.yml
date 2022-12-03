@@ -1,0 +1,31 @@
+############################## Contact #############################
+contact:
+  enable : true
+  title : 联络 我们
+  subtitle : 联系方式
+  content : 欢迎使用以下方式与我们联系，我们将以最快的方式回复您的信息。
+
+  # Contact details
+  contact_list:
+    - icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
+      info : "北京市朝阳区青年路西里5号"
+
+    - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
+      info : "电话: +86 185 1081 6798"
+
+    # - icon : ti-printer # themify icon pack : https://themify.me/themify-icons
+    #   info : "Fax: +800-111-111"
+
+    - icon : ti-email # themify icon pack : https://themify.me/themify-icons
+      info : "微博：好奇的嘟可可"
+
+
+  # Contact form
+  contact_form:
+    enable : true
+    form_action : "https://formspree.io/f/moqpkeal" #contact form works with https://formspree.io
+    name : "您的名字"
+    email : "您的邮件地址"
+    subject : "题 目"
+    message : "消 息"
+    submit : "发 送"

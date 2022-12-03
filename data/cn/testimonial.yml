@@ -1,0 +1,43 @@
+################################# Testimonial #########################
+testimonial:
+  enable : true
+  bg_image : images/backgrounds/bg-testimonial.jpg
+  bg_image_webp : images/backgrounds/bg-testimonial.webp
+  testimonial_item :
+    # testimonial item loop
+    - name : DooCoco
+      image : images/client/founder.jpg
+      # image_webp : images/client/client-1.webp
+      date : 2020年11月26日
+      content : "
+还有52天，我就50岁了。小时候写作文，总是会说年过半百，两鬓斑白，可怕。而此刻，我觉得，50岁真是个好年纪啊。岁月是生命的礼物，我已经慢慢地学会了如何生活，内心自由、丰盛。
+
+
+***美好之人生，不外乎各人顺其性情，行好份内之事。 - Luis de León***
+
+
+站在这个时点，我觉得幸运。人生的前20年，在父母的护佑下，顺己性情；之后的30年，在伙伴的支持下将份内之事做得还算及格。
+
+
+在50岁时，我将份内之事压缩到最少，然后打算给自己个礼物，任性地做一件我真正爱做的事，经营一个与美好生活相关的品牌—— DooCoco。叫这个名字,只是因为看这几个字母排列在一起就莫名地开心，又朗朗上口。我希望和优秀的设计师、手作人去寻找、创作可以长久陪伴大家的作品，这些作品穿越时光，在每一个日常，我们去触摸它、欣赏它，感受细小的、真实的美好，让我们历经风雨仍然觉得人间值得。
+
+
+DooCoco 2020秋冬EMBRACE 拥抱系列选择五款羊绒围巾作为首发，因为羊绒是最有陪伴感的织物，就像将爱搭在肩上，温暖而不负累。经历着疫情动荡的我们更需要在每个可能的细微之处，被温柔以待。
+
+
+让我们好好拥抱自己，拥抱生命中最重要的人，拥抱明天。
+      "
+
+    # testimonial item loop
+    # - name : Mark Dinn
+    #   image : images/client/client-2.jpg
+    #   image_webp : images/client/client-2.webp
+    #   date : Dec 26, 2018
+    #   content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+    #
+    # # testimonial item loop
+    # - name : Lemos Kail
+    #   image : images/client/client-1.jpg
+    #   image_webp : images/client/client-1.webp
+    #   date : Dec 26, 2018
+    #   content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!

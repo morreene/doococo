@@ -1,0 +1,30 @@
+- id: blogTitle
+  translation: 我们的 日志
+- id: readMore
+  translation: 更多
+- id: viewAllPost
+  translation: 查看所有文章
+- id: share
+  translation: 分享
+- id: aboutAuthor
+  translation: 关于作者
+- id: authorsPosts
+  translation: 作者的文章
+- id: all
+  translation: 所有
+- id: about
+  translation: À propos
+- id: services
+  translation: Services
+- id: portfolio
+  translation: Portfolio
+- id: team
+  translation: Équipe
+- id: pricing
+  translation: Tarification
+- id: blog
+  translation: Blog
+- id: contact
+  translation: Contact
+- id: themefisher
+  translation: Themefisher

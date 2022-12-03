@@ -1,0 +1,13 @@
+############################# call to action ##############################
+cta:
+  enable : true
+  bg_image : "images/backgrounds/bg-white-wall.jpg"
+  bg_image_webp : "images/backgrounds/bg-white-wall.webp"
+  title : "穿越时光长久陪伴"
+  content : "扫描下方微信二维码关注DooCoco客服账号，即可线上咨询与购买，
+  并及时获取品牌动态. 微博：好奇的嘟可可"
+  qr_image : images/qr_code.png
+  button:
+    enable : false
+    label : "Start a project with us"
+    link : "#contact"

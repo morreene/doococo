@@ -1,0 +1,36 @@
+############################# feature ###################################
+feature:
+  enable : true
+  image : images/coming1/b.png
+  image_webp : images/coming1/b.webp
+  title : Coming Soon - Paperweight behind stories
+  content : "
+Royal Crown Derby is highly praised, not just for its delicate and elegant daily-use porcelain. The paperweight series made with small animals as prototypes has also attracted the attention of many collectors. As early as the late 1970s, Jo Ledger, the designer at the time, tried to use Japanese Imari-style patterns on simple figurines, and in 1981 the paperweight series was officially launched.
+Since then, these small animal statues have become favorites among collectors.
+
+
+In the new century, Royal Crown Derby's bone china paperweight has successively launched Chinese Zodiac series, Teddy Bear series, Bird series, Aquatic series, English Country series and so on. Exquisite bone china art and strong nostalgia,
+
+
+There is a touching story behind each paperweight.
+  "
+  feature_item :
+      # feature item loop
+    - title : SEO Optimized
+      icon : ti-world # themify icon pack : https://themify.me/themify-icons
+      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+
+      # feature item loop
+    - title : Easy Customization
+      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
+      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+
+      # feature item loop
+    - title : SEO Optimized
+      icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
+      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+
+      # feature item loop
+    - title : Easy Customization
+      icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
+      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe

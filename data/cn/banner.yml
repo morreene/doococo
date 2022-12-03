@@ -1,0 +1,17 @@
+############################### Banner ################################
+banner:
+  enable : true
+  bg_image_webp : "images/backgrounds/hero-area.webp"
+  bg_image : "images/backgrounds/hero-area.jpg"
+  icon : "" # themify icon pack : https://themify.me/themify-icons
+  title : "DooCoco"
+  content : "an online gift boutique, dedicated to incorporating aesthetic inspirations to everyday life."
+  content1 : "线上礼物集合店，致力于将美学灵感融入生活"
+  button:
+    enable : true
+    label : "Welcome"
+    link : "#season1"
+  button1:
+    enable : true
+    label : "欢 迎"
+    link : "#season1"

@@ -1,0 +1,52 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.banner.banner.enable }}
+{{ with $data.banner.banner }}
+{{"<!-- Welcome Slider-->" | safeHTML}}
+<section class="hero-area" style='background-image: url("{{ .bg_image_webp | absURL }}")'>
+	<!-- this image is for trigger this section fallback background image -->
+	<img class="lozad d-none" data-src="{{ .bg_image_webp | absURL }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | absURL }})'"/>
+
+	<div class="block">
+		{{ if .icon }}
+		<div class="video-button">
+			<i class="{{ .icon }}"></i>
+		</div>
+		{{ end }}
+
+
+		<!-- <div class="client-thumb"> -->
+									<!-- <img class="img-fluid lozad" data-src="doococo.style/" onerror="this.onerror=null;this.src='http:\/\/doococo.style\/client\/Cooo.jpg'" alt="Jonathon Andrew11" src="/images/client/Cooo.jpg" data-loaded="true"> -->
+								<!-- </div> -->
+
+<div class="banner-brand">
+	<a  href="{{ site.BaseURL }}">{{ if site.Params.logo }} <img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" width="400"> {{ else }} {{ site.Title }} {{ end }}</a>
+</div>
+
+
+
+		<!-- <h1>{{ .title | markdownify }}</h1> -->
+		<p>{{ .content | markdownify }}</p>
+		<p>{{ .content1 | markdownify }}</p>
+		{{ if .button.enable }}
+		{{ with .button }}
+		<a href="{{ .link }}" class="btn btn-transparent page-scroll">{{ .label }}</a>
+		{{ end }}
+		{{ end }}
+
+
+		{{ if .button1.enable }}
+		{{ with .button1 }}
+		<a href="{{ .link }}" class="btn btn-transparent page-scroll">{{ .label }}</a>
+		{{ end }}
+		{{ end }}
+
+
+
+
+	</div>
+
+</section>
+{{"<!-- /Welcome Slider-->" | safeHTML}}
+{{end}}
+{{end}}

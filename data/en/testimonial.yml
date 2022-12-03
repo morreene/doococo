@@ -1,0 +1,59 @@
+################################# Testimonial #########################
+testimonial:
+  enable : true
+  bg_image : images/backgrounds/bg-testimonial.jpg
+  bg_image_webp : images/backgrounds/bg-testimonial.webp
+  testimonial_item :
+    # testimonial item loop
+    - name : DooCoco
+      # image : images/client/client-1.jpg
+      image : images/client/founder.jpg
+      # image_webp : images/client/client-1.webp
+      date : November 26, 2020
+      content : "
+I’m turning age fifty in 52 days. When I was young, I often used the phrase “an aging grey-haired fifty-year-old” a lot in my essay writing. That phrase sounds so
+horrible and wrong, doesn’t it? However, right now, I feel like I’m just about to enter my prime. Age is a gift from life. Slowly and gradually, I’ve managed to pick up the
+art of living, with a mind that’s spiritually rich and free.
+
+
+***“A wonderful life is all about making choices by freewill and fulfilling one’s responsibilities in the right manner.”
+ - Luis de León***
+
+
+At the current stage of my life, all I feel is blessed. In the first twenty years of my life, I was able to do what I had loved under the wings of my parents. Then for the
+past thirty years, I’ve managed to deal with my part of duty responsibly with the assistance and support from my friends.
+
+
+As I’m turning fifty, I plan to be self-indulgent and give myself a gift: DooCoco, a brand associated with wonderful life experiences. It also happens to be what I’m
+truly passionate about. The reason I named this brand DooCoco is that I love the way these alphabets sit together and the rhythm when you read them out loud.
+
+
+I want to explore and create artworks that can accompany all of us timelessly as gifts, alongside with outstanding designers and craftsmen together. These
+artworks will last in time. We get to touch and appreciate the beauty and charm within them in our everyday life. May the beauty and charm help make our lives
+delightful, even though sometimes we inevitably run into things that are not so great in lives.
+
+
+Five cashmere scarves are introduced as launch products of DooCoco F/W20 “EMBRACE 拥抱” series, merely for the unique character of cashmere, that offers
+the most sense of companion among all textiles. Cashmere works just like love, warm but not restraining. In the year of 2020, during the exhausting pandemic, and
+all the other challenges we are facing, we need more care and love than ever.
+
+
+Let us embrace ourselves, embrace those who we treasure the most in our lives, and embrace tomorrow.
+      "
+
+
+
+    # testimonial item loop
+    # - name : Mark Dinn
+      # image : images/client/client-2.jpg
+      # image_webp : images/client/client-2.webp
+      # image : images/client/Doo.jpg
+      # date : Dec 26, 2018
+      # content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+
+    # testimonial item loop
+    # - name : Lemos Kail
+    #   image : images/client/client-1.jpg
+    #   image_webp : images/client/client-1.webp
+    #   date : Dec 26, 2018
+    #   content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!

@@ -1,0 +1,100 @@
+/*
+Color light: #B0E0E6
+Color dark: #1B365D
+*/
+
+body {
+    background-color: #B0E0E6;
+}
+/* .bg-one {
+    background-color: #1B365D;
+} */
+.hero-area .block h1 {
+    font-size: 60px;
+}
+.navigation {
+    /* background-color: #1d2024; */
+    /* background-color: #1B365D; */
+    background-color: #353b43;
+}
+.navbar {
+    padding: 1rem 1rem;
+}
+.navbar-expand-lg .navbar-nav {
+    font-size: 1.1rem;
+}
+
+.about .block {
+    background: #B0E0E6;
+}
+
+.about h3 {
+    color: #1B365D;
+}
+.banner-brand {
+    margin-bottom: 20px;
+}
+
+
+.bg-one {
+    background-color: #1B365D;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    font-weight: 400;
+    font-family: anaheim, sans-serif;
+    color: #afbac4;
+}
+.about p {
+    color: #afbac4;
+    font-size: 18px;
+}
+
+#season1 p {
+    /* color: #afbac4; */
+    font-size: 18px;
+}
+#feature .content-block li {
+    /* color: #afbac4; */
+    font-size: 18px;
+}
+
+.client-info {
+    margin: 0 auto;
+    width: 85%;
+}
+.section-bg {
+    background: #1B365D;
+}
+
+
+#select-language {
+    background: #353b43;
+    color: #aaa;
+    border: 0;
+    margin-left: 20px;
+    font-size: 12px;
+}
+.call-to-action p{
+    font-size: 20px;
+    color: #ddd;
+}
+
+.call-to-action h2{
+    color: #ddd;
+}
+
+
+.portfolio-block .caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    z-index: 9;
+    transition: all .2s ease-in-out;
+    padding: 10px
+    font-size: 10px;
+    text-align: center;
+}
